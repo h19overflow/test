@@ -1,0 +1,72 @@
+{
+  "findings": [
+    {
+      "bias_type": "Potential Overvaluation of Startup Experience",
+      "affected_candidates": [
+        "C1"
+      ],
+      "affected_criteria": [
+        "Financial Systems Familiarity"
+      ],
+      "evidence": "C1's experience at a fintech startup is rated highly, potentially overshadowing the lack of formal financial systems experience compared to candidates from established financial institutions.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Corporate Prestige Bias",
+      "affected_candidates": [
+        "C2"
+      ],
+      "affected_criteria": [
+        "Proficiency in Programming Languages",
+        "Database Proficiency"
+      ],
+      "evidence": "C2's scores may be influenced by their prestigious background at Goldman Sachs and Barclays, leading to higher scores despite lower proficiency in relevant technologies.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Experience Threshold Bias",
+      "affected_candidates": [
+        "C3"
+      ],
+      "affected_criteria": [
+        "Backend Engineering Experience"
+      ],
+      "evidence": "C3's score reflects a strict adherence to the 5-year experience threshold, potentially undervaluing their contributions to open source projects.",
+      "severity": "clear"
+    },
+    {
+      "bias_type": "Contextual Experience Bias",
+      "affected_candidates": [
+        "C4"
+      ],
+      "affected_criteria": [
+        "Financial Systems Familiarity"
+      ],
+      "evidence": "C4's experience in a prop trading firm is rated lower due to lack of regulatory experience, which may not be as critical in high-frequency trading roles.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Language Relevance Bias",
+      "affected_candidates": [
+        "C5"
+      ],
+      "affected_criteria": [
+        "Proficiency in Programming Languages"
+      ],
+      "evidence": "C5's score reflects a lower rating for TypeScript, which may not be as relevant as Python, potentially undervaluing their overall programming proficiency.",
+      "severity": "clear"
+    },
+    {
+      "bias_type": "Lack of Financial Domain Experience Bias",
+      "affected_candidates": [
+        "C6"
+      ],
+      "affected_criteria": [
+        "Financial Systems Familiarity"
+      ],
+      "evidence": "C6's score is significantly impacted by the absence of financial domain experience, despite strong technical skills in other areas.",
+      "severity": "flagged"
+    }
+  ],
+  "audit_complete": true
+}

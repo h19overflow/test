@@ -1,0 +1,483 @@
+{
+  "approved_rubric_reference": "scoring_rubric.json",
+  "original_scores": {
+    "candidate_scores": [
+      {
+        "candidate_id": "C1",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "7 years of backend engineering experience, exceeding the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 10.0,
+            "rationale": "Strong proficiency in both Python and Go, with practical application in projects."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 10.0,
+            "rationale": "Built a real-time trade execution engine handling 50k req/s, well above the threshold."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 10.0,
+            "rationale": "Experience in a fintech startup, directly related to trading systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 10.0,
+            "rationale": "Proficient in PostgreSQL and Redis, with relevant experience in database design."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 8.0,
+            "rationale": "Experience with Docker and leading a team in a distributed environment."
+          }
+        ],
+        "total_weighted_score": 9.8
+      },
+      {
+        "candidate_id": "C2",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 8.0,
+            "rationale": "6 years of backend engineering experience, relevant to the role."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 6.0,
+            "rationale": "Primary language is Java, with some experience in Python, but not as strong as required."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 7.0,
+            "rationale": "Experience with low-latency systems, but no specific mention of handling >10k req/s."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 8.0,
+            "rationale": "Experience at Goldman Sachs and Barclays, relevant to financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 5.0,
+            "rationale": "No specific mention of PostgreSQL or NoSQL databases."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 4.0,
+            "rationale": "No experience with containerization technologies mentioned."
+          }
+        ],
+        "total_weighted_score": 6.55
+      },
+      {
+        "candidate_id": "C3",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 4.0,
+            "rationale": "4 years of experience, below the required 5 years."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 10.0,
+            "rationale": "Expert in Python, with contributions to open source projects."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 6.0,
+            "rationale": "Built a WebSocket data pipeline, but no mention of high-throughput systems."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 6.0,
+            "rationale": "Contributed to trading libraries, but limited direct experience in financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 8.0,
+            "rationale": "Proficient in PostgreSQL and MongoDB, with relevant experience."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 5.0,
+            "rationale": "No mention of containerization experience."
+          }
+        ],
+        "total_weighted_score": 6.6
+      },
+      {
+        "candidate_id": "C4",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "8 years of backend engineering experience, exceeding the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 9.0,
+            "rationale": "Strong proficiency in Go, with experience in Rust."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 10.0,
+            "rationale": "Experience in high-frequency trading infrastructure, relevant to low-latency systems."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 6.0,
+            "rationale": "Experience in a prop trading firm, but no mention of regulatory environments."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 7.0,
+            "rationale": "Experience with Redis and ClickHouse, but no mention of PostgreSQL."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 10.0,
+            "rationale": "Expert in Kubernetes, relevant to containerization."
+          }
+        ],
+        "total_weighted_score": 8.75
+      },
+      {
+        "candidate_id": "C5",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "5 years of backend engineering experience, meeting the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 8.0,
+            "rationale": "Strong proficiency in Python, but TypeScript is less relevant."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 7.0,
+            "rationale": "Experience with payments infrastructure, but no specific mention of req/s."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 8.0,
+            "rationale": "Experience at Razorpay, relevant to financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 9.0,
+            "rationale": "Proficient in PostgreSQL, with relevant experience."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 7.0,
+            "rationale": "Experience with Docker, but no mention of distributed teams."
+          }
+        ],
+        "total_weighted_score": 8.25
+      },
+      {
+        "candidate_id": "C6",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "10 years of experience, exceeding the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 6.0,
+            "rationale": "Mostly Java, with some learning in Go, but not strong proficiency."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 4.0,
+            "rationale": "No financial domain experience, which is critical for this role."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 2.0,
+            "rationale": "No relevant experience in financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 5.0,
+            "rationale": "Experience with Cassandra, but no mention of PostgreSQL."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 10.0,
+            "rationale": "Strong experience with Kubernetes, relevant to containerization."
+          }
+        ],
+        "total_weighted_score": 6.05
+      }
+    ]
+  },
+  "bias_audit_status": "completed",
+  "flagged_criteria": [
+    "Database Proficiency",
+    "Financial Systems Familiarity",
+    "Proficiency in Programming Languages"
+  ],
+  "corrected_scores": {
+    "candidate_scores": [
+      {
+        "candidate_id": "C1",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "7 years of backend engineering experience, exceeding the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 10.0,
+            "rationale": "Strong proficiency in both Python and Go, with practical application in projects."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 10.0,
+            "rationale": "Built a real-time trade execution engine handling 50k req/s, well above the threshold."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 10.0,
+            "rationale": "Experience in a fintech startup, directly related to trading systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 10.0,
+            "rationale": "Proficient in PostgreSQL and Redis, with relevant experience in database design."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 8.0,
+            "rationale": "Experience with Docker and leading a team in a distributed environment."
+          }
+        ],
+        "total_weighted_score": 9.8
+      },
+      {
+        "candidate_id": "C2",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 8.0,
+            "rationale": "6 years of backend engineering experience, relevant to the role."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 6.0,
+            "rationale": "Primary language is Java, with some experience in Python, but not as strong as required."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 7.0,
+            "rationale": "Experience with low-latency systems, but no specific mention of handling >10k req/s."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 8.0,
+            "rationale": "Experience at Goldman Sachs and Barclays, relevant to financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 5.0,
+            "rationale": "No specific mention of PostgreSQL or NoSQL databases."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 4.0,
+            "rationale": "No experience with containerization technologies mentioned."
+          }
+        ],
+        "total_weighted_score": 6.55
+      },
+      {
+        "candidate_id": "C3",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 4.0,
+            "rationale": "4 years of experience, below the required 5 years."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 10.0,
+            "rationale": "Expert in Python, with contributions to open source projects."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 6.0,
+            "rationale": "Built a WebSocket data pipeline, but no mention of high-throughput systems."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 6.0,
+            "rationale": "Contributed to trading libraries, but limited direct experience in financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 8.0,
+            "rationale": "Proficient in PostgreSQL and MongoDB, with relevant experience."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 5.0,
+            "rationale": "No mention of containerization experience."
+          }
+        ],
+        "total_weighted_score": 6.6
+      },
+      {
+        "candidate_id": "C4",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "8 years of backend engineering experience, exceeding the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 9.0,
+            "rationale": "Strong proficiency in Go, with experience in Rust."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 10.0,
+            "rationale": "Experience in high-frequency trading infrastructure, relevant to low-latency systems."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 6.0,
+            "rationale": "Experience in a prop trading firm, but no mention of regulatory environments."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 7.0,
+            "rationale": "Experience with Redis and ClickHouse, but no mention of PostgreSQL."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 10.0,
+            "rationale": "Expert in Kubernetes, relevant to containerization."
+          }
+        ],
+        "total_weighted_score": 8.75
+      },
+      {
+        "candidate_id": "C5",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "5 years of backend engineering experience, meeting the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 8.0,
+            "rationale": "Strong proficiency in Python, but TypeScript is less relevant."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 7.0,
+            "rationale": "Experience with payments infrastructure, but no specific mention of req/s."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 8.0,
+            "rationale": "Experience at Razorpay, relevant to financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 9.0,
+            "rationale": "Proficient in PostgreSQL, with relevant experience."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 7.0,
+            "rationale": "Experience with Docker, but no mention of distributed teams."
+          }
+        ],
+        "total_weighted_score": 8.25
+      },
+      {
+        "candidate_id": "C6",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Experience",
+            "score": 10.0,
+            "rationale": "10 years of experience, exceeding the requirement."
+          },
+          {
+            "criterion_name": "Proficiency in Programming Languages",
+            "score": 6.0,
+            "rationale": "Mostly Java, with some learning in Go, but not strong proficiency."
+          },
+          {
+            "criterion_name": "High-Throughput System Experience",
+            "score": 4.0,
+            "rationale": "No financial domain experience, which is critical for this role."
+          },
+          {
+            "criterion_name": "Financial Systems Familiarity",
+            "score": 2.0,
+            "rationale": "No relevant experience in financial systems."
+          },
+          {
+            "criterion_name": "Database Proficiency",
+            "score": 5.0,
+            "rationale": "Experience with Cassandra, but no mention of PostgreSQL."
+          },
+          {
+            "criterion_name": "Containerization and Distributed Teams",
+            "score": 10.0,
+            "rationale": "Strong experience with Kubernetes, relevant to containerization."
+          }
+        ],
+        "total_weighted_score": 6.05
+      }
+    ]
+  },
+  "scores_changed": false,
+  "ranking_source": "corrected_scores",
+  "final_ranking": [
+    {
+      "candidate_id": "C1",
+      "total_weighted_score": 9.8,
+      "rank": 1
+    },
+    {
+      "candidate_id": "C4",
+      "total_weighted_score": 8.75,
+      "rank": 2
+    },
+    {
+      "candidate_id": "C5",
+      "total_weighted_score": 8.25,
+      "rank": 3
+    },
+    {
+      "candidate_id": "C3",
+      "total_weighted_score": 6.6,
+      "rank": 4
+    },
+    {
+      "candidate_id": "C2",
+      "total_weighted_score": 6.55,
+      "rank": 5
+    },
+    {
+      "candidate_id": "C6",
+      "total_weighted_score": 6.05,
+      "rank": 6
+    }
+  ]
+}

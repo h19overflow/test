@@ -1,0 +1,479 @@
+{
+  "approved_rubric_reference": "scoring_rubric.json",
+  "original_scores": {
+    "candidate_scores": [
+      {
+        "candidate_id": "C1",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 9.0,
+            "rationale": "Mock rationale for C1 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 8.9,
+            "rationale": "Mock rationale for C1 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 8.8,
+            "rationale": "Mock rationale for C1 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 8.7,
+            "rationale": "Mock rationale for C1 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 8.6,
+            "rationale": "Mock rationale for C1 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 8.5,
+            "rationale": "Mock rationale for C1 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 8.761
+      },
+      {
+        "candidate_id": "C2",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 8.6,
+            "rationale": "Mock rationale for C2 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 8.5,
+            "rationale": "Mock rationale for C2 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 8.4,
+            "rationale": "Mock rationale for C2 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 8.2,
+            "rationale": "Mock rationale for C2 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 8.2,
+            "rationale": "Mock rationale for C2 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 8.1,
+            "rationale": "Mock rationale for C2 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 8.345
+      },
+      {
+        "candidate_id": "C3",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 8.1,
+            "rationale": "Mock rationale for C3 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 8.0,
+            "rationale": "Mock rationale for C3 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 7.9,
+            "rationale": "Mock rationale for C3 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 7.8,
+            "rationale": "Mock rationale for C3 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 7.7,
+            "rationale": "Mock rationale for C3 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 7.6,
+            "rationale": "Mock rationale for C3 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 7.861
+      },
+      {
+        "candidate_id": "C4",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 7.7,
+            "rationale": "Mock rationale for C4 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 7.6,
+            "rationale": "Mock rationale for C4 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 7.5,
+            "rationale": "Mock rationale for C4 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 7.4,
+            "rationale": "Mock rationale for C4 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 7.2,
+            "rationale": "Mock rationale for C4 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 7.2,
+            "rationale": "Mock rationale for C4 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 7.446
+      },
+      {
+        "candidate_id": "C5",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 7.2,
+            "rationale": "Mock rationale for C5 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 7.1,
+            "rationale": "Mock rationale for C5 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 7.0,
+            "rationale": "Mock rationale for C5 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 6.9,
+            "rationale": "Mock rationale for C5 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 6.8,
+            "rationale": "Mock rationale for C5 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 6.7,
+            "rationale": "Mock rationale for C5 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 6.961
+      },
+      {
+        "candidate_id": "C6",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 6.8,
+            "rationale": "Mock rationale for C6 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 6.7,
+            "rationale": "Mock rationale for C6 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 6.5,
+            "rationale": "Mock rationale for C6 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 6.5,
+            "rationale": "Mock rationale for C6 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 6.3,
+            "rationale": "Mock rationale for C6 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 6.2,
+            "rationale": "Mock rationale for C6 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 6.511
+      }
+    ]
+  },
+  "bias_audit_status": "completed",
+  "flagged_criteria": [],
+  "corrected_scores": {
+    "candidate_scores": [
+      {
+        "candidate_id": "C1",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 9.0,
+            "rationale": "Mock rationale for C1 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 8.9,
+            "rationale": "Mock rationale for C1 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 8.8,
+            "rationale": "Mock rationale for C1 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 8.7,
+            "rationale": "Mock rationale for C1 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 8.6,
+            "rationale": "Mock rationale for C1 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 8.5,
+            "rationale": "Mock rationale for C1 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 8.761
+      },
+      {
+        "candidate_id": "C2",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 8.6,
+            "rationale": "Mock rationale for C2 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 8.5,
+            "rationale": "Mock rationale for C2 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 8.4,
+            "rationale": "Mock rationale for C2 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 8.2,
+            "rationale": "Mock rationale for C2 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 8.2,
+            "rationale": "Mock rationale for C2 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 8.1,
+            "rationale": "Mock rationale for C2 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 8.345
+      },
+      {
+        "candidate_id": "C3",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 8.1,
+            "rationale": "Mock rationale for C3 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 8.0,
+            "rationale": "Mock rationale for C3 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 7.9,
+            "rationale": "Mock rationale for C3 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 7.8,
+            "rationale": "Mock rationale for C3 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 7.7,
+            "rationale": "Mock rationale for C3 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 7.6,
+            "rationale": "Mock rationale for C3 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 7.861
+      },
+      {
+        "candidate_id": "C4",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 7.7,
+            "rationale": "Mock rationale for C4 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 7.6,
+            "rationale": "Mock rationale for C4 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 7.5,
+            "rationale": "Mock rationale for C4 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 7.4,
+            "rationale": "Mock rationale for C4 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 7.2,
+            "rationale": "Mock rationale for C4 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 7.2,
+            "rationale": "Mock rationale for C4 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 7.446
+      },
+      {
+        "candidate_id": "C5",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 7.2,
+            "rationale": "Mock rationale for C5 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 7.1,
+            "rationale": "Mock rationale for C5 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 7.0,
+            "rationale": "Mock rationale for C5 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 6.9,
+            "rationale": "Mock rationale for C5 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 6.8,
+            "rationale": "Mock rationale for C5 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 6.7,
+            "rationale": "Mock rationale for C5 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 6.961
+      },
+      {
+        "candidate_id": "C6",
+        "scores": [
+          {
+            "criterion_name": "Backend engineering depth",
+            "score": 6.8,
+            "rationale": "Mock rationale for C6 on Backend engineering depth."
+          },
+          {
+            "criterion_name": "Python or Go proficiency",
+            "score": 6.7,
+            "rationale": "Mock rationale for C6 on Python or Go proficiency."
+          },
+          {
+            "criterion_name": "High-throughput low-latency systems",
+            "score": 6.5,
+            "rationale": "Mock rationale for C6 on High-throughput low-latency systems."
+          },
+          {
+            "criterion_name": "Financial systems familiarity",
+            "score": 6.5,
+            "rationale": "Mock rationale for C6 on Financial systems familiarity."
+          },
+          {
+            "criterion_name": "Realtime data pipeline experience",
+            "score": 6.3,
+            "rationale": "Mock rationale for C6 on Realtime data pipeline experience."
+          },
+          {
+            "criterion_name": "Database and container operations",
+            "score": 6.2,
+            "rationale": "Mock rationale for C6 on Database and container operations."
+          }
+        ],
+        "total_weighted_score": 6.511
+      }
+    ]
+  },
+  "scores_changed": false,
+  "ranking_source": "original_scores",
+  "final_ranking": [
+    {
+      "candidate_id": "C1",
+      "total_weighted_score": 8.761,
+      "rank": 1
+    },
+    {
+      "candidate_id": "C2",
+      "total_weighted_score": 8.345,
+      "rank": 2
+    },
+    {
+      "candidate_id": "C3",
+      "total_weighted_score": 7.861,
+      "rank": 3
+    },
+    {
+      "candidate_id": "C4",
+      "total_weighted_score": 7.446,
+      "rank": 4
+    },
+    {
+      "candidate_id": "C5",
+      "total_weighted_score": 6.961,
+      "rank": 5
+    },
+    {
+      "candidate_id": "C6",
+      "total_weighted_score": 6.511,
+      "rank": 6
+    }
+  ]
+}

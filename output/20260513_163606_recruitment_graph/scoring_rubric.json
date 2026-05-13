@@ -1,0 +1,40 @@
+{
+  "criteria": [
+    {
+      "name": "Backend engineering depth",
+      "weight": 0.18,
+      "scale": "0-10",
+      "ten_point_description": "Excellent evidence for Backend engineering depth."
+    },
+    {
+      "name": "Python or Go proficiency",
+      "weight": 0.16,
+      "scale": "0-10",
+      "ten_point_description": "Excellent evidence for Python or Go proficiency."
+    },
+    {
+      "name": "High-throughput low-latency systems",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "Excellent evidence for High-throughput low-latency systems."
+    },
+    {
+      "name": "Financial systems familiarity",
+      "weight": 0.16,
+      "scale": "0-10",
+      "ten_point_description": "Excellent evidence for Financial systems familiarity."
+    },
+    {
+      "name": "Realtime data pipeline experience",
+      "weight": 0.15,
+      "scale": "0-10",
+      "ten_point_description": "Excellent evidence for Realtime data pipeline experience."
+    },
+    {
+      "name": "Database and container operations",
+      "weight": 0.15,
+      "scale": "0-10",
+      "ten_point_description": "Excellent evidence for Database and container operations."
+    }
+  ]
+}

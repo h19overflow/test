@@ -1,0 +1,1 @@
+{"stage": "RUBRIC_GENERATED", "timestamp": "2026-05-13T08:45:24.621737+00:00", "model": "anthropic/claude-haiku-4-5", "provider": "openrouter", "prompt_hash": "f2e9d13830f2b1cdf9e563a5ba2919447ada3d9f3aed23cf354a7e713e0196df", "input_artifacts": ["data/job_description.json"], "output_artifact": "state.draft_rubric", "candidate_names_included": false}

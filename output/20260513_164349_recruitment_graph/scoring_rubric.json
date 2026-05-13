@@ -1,0 +1,40 @@
+{
+  "criteria": [
+    {
+      "name": "Backend Engineering Experience",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "Demonstrates 5+ years of backend engineering experience, with a focus on relevant technologies and systems."
+    },
+    {
+      "name": "Proficiency in Programming Languages",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "Exhibits strong proficiency in Python or Go, with practical examples of projects or systems developed."
+    },
+    {
+      "name": "High-Throughput System Experience",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "Has hands-on experience with high-throughput, low-latency systems, specifically handling over 10k requests per second."
+    },
+    {
+      "name": "Financial Systems Familiarity",
+      "weight": 0.15,
+      "scale": "0-10",
+      "ten_point_description": "Demonstrates familiarity with financial systems, trading platforms, or payment processing, showcasing relevant projects or roles."
+    },
+    {
+      "name": "Database Proficiency",
+      "weight": 0.15,
+      "scale": "0-10",
+      "ten_point_description": "Shows proficiency with PostgreSQL and at least one NoSQL database, with examples of database design and optimization."
+    },
+    {
+      "name": "Containerization and Distributed Teams",
+      "weight": 0.1,
+      "scale": "0-10",
+      "ten_point_description": "Exhibits experience with containerization technologies (Docker/Kubernetes) and the ability to work effectively in distributed, async-first teams."
+    }
+  ]
+}
