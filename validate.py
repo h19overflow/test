@@ -60,8 +60,9 @@ def _archive_run(result: dict) -> Path:
     output_dir = ROOT / "output" / f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_recruitment_graph"
     output_dir.mkdir(parents=True, exist_ok=True)
     for path in ARCHIVED_FILES:
+        src = ROOT / path
         target = output_dir / Path(path).name
-        shutil.copy2(ROOT / path, target)
+        shutil.copy2(src, target)
     (output_dir / "graph_result.json").write_text(json.dumps(result, indent=2, default=str), encoding="utf-8")
     metadata = {"script": "validate.py", "llm_mode": "openrouter", "status": "passed"}
     (output_dir / "run_metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")

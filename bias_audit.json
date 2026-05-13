@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "bias_type": "Employer Prestige Bias",
+      "affected_candidates": [
+        "C2",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Backend Engineering Expertise & Language Proficiency",
+        "Financial Systems & Real-Time Data Expertise",
+        "Event-Driven Architecture & Fintech Domain Knowledge"
+      ],
+      "evidence": "C2 (Goldman Sachs, Barclays, Oxford degree) and C6 (Google, Meta) receive credential prestige signals that inflate scores despite objective skill gaps. C2 scores 8.0 on Financial Systems despite explicitly lacking WebSocket experience. C6 scores 7.0 on Backend Expertise despite Java being primary language (not Python/Go per rubric) and Go being 'learning in progress.' Meanwhile, C1 (Lagos fintech startup, no degree listed) scores 9.0-10.0 on identical criteria with superior evidence (50k req/s proven, Kafka expertise). The scoring rationales for C2 and C6 use institutional prestige ('tier-1 financial institutions,' 'FAANG background') as proxies for competence rather than explicit skill evidence.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Geography & Startup Context Bias",
+      "affected_candidates": [
+        "C1",
+        "C3"
+      ],
+      "affected_criteria": [
+        "Containerization, Orchestration & Distributed Systems",
+        "High-Throughput, Low-Latency Systems Experience"
+      ],
+      "evidence": "C1 (Lagos fintech startup) and C3 (early-stage startup) are penalized for startup context despite demonstrating superior or equivalent technical depth. C1 scores 6.0 on Containerization 'due to no explicit Docker/Kubernetes mention' but leads a team of 4 and built 50k req/s systems\u2014suggesting distributed systems capability. C3 scores 4.0 on Containerization with identical reasoning ('early-stage startup background suggests limited exposure'). By contrast, C6 scores 8.0 on the same criterion based on institutional affiliation alone, with no explicit Kubernetes experience mentioned in the summary. C1's Lagos location may trigger implicit assumptions about infrastructure maturity. The rationale for C3 explicitly uses startup stage as a limiting factor ('Early-stage startup context suggests limited exposure to >10k req/s systems') despite WebSocket pipeline work.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Credential Prestige & Degree Bias",
+      "affected_candidates": [
+        "C2",
+        "C5"
+      ],
+      "affected_criteria": [
+        "Data Infrastructure & Database Proficiency",
+        "Backend Engineering Expertise & Language Proficiency"
+      ],
+      "evidence": "C2 (Oxford CS degree) and C5 (MBA + CS degree) receive implicit credibility boosts. C2's lack of database experience is scored 5.0 with rationale 'Inferred competence from banking background'\u2014a speculative inference. C5 receives 7.0 on Backend Expertise with rationale noting 'Strong communication skills noted by referees,' a soft signal unrelated to technical criteria. C1 explicitly has 'No degree listed' and is not penalized in scoring, but the absence is notable in context. C6 (no degree mentioned) is not penalized. The rubric does not weight degrees, yet C2 and C5's credentials appear to generate favorable inferences in rationales.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Language Preference Bias (Python/Go Requirement)",
+      "affected_candidates": [
+        "C2",
+        "C5",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Backend Engineering Expertise & Language Proficiency"
+      ],
+      "evidence": "The rubric explicitly prioritizes Python or Go. C2 (Java primary, some Python) scores 7.0 on Backend Expertise with rationale 'primary language (Java) is not Python or Go' but rationale softens this with 'Solid proficiency demonstrated.' C6 (Java primary, Go 'learning in progress') also scores 7.0 with nearly identical rationale. However, C5 (Python + TypeScript) scores 7.0 with rationale 'TypeScript secondary language is not Go, limiting score slightly'\u2014penalizing a secondary language. The scoring is inconsistent: Java-primary candidates are not penalized as heavily as a Python-primary candidate with TypeScript as secondary. C1 and C4 (Go/Python/Rust experts) score 9.0, which is appropriate, but the penalty structure is unevenly applied.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Fintech Domain Gatekeeping",
+      "affected_candidates": [
+        "C6"
+      ],
+      "affected_criteria": [
+        "Financial Systems & Real-Time Data Expertise",
+        "Event-Driven Architecture & Fintech Domain Knowledge"
+      ],
+      "evidence": "C6 scores 2.0 on both 'Financial Systems & Real-Time Data Expertise' and 'Event-Driven Architecture & Fintech Domain Knowledge' with rationale 'No financial domain experience mentioned.' This is a severe penalty (2.0 vs. 8.0-10.0 for others) that may be appropriate for a trading infrastructure role, but the scoring creates a hard barrier for non-fintech candidates. C6's 10 years of backend engineering, Kubernetes expertise, and system design capability at scale are not transferable in the rubric's framing. This is not bias per se, but it reveals that the role is fintech-domain-specific; however, the rubric does not explicitly state this as a hard requirement. If fintech experience is essential, it should be weighted higher or marked as a prerequisite, not scored on a 0-10 scale where 2.0 is achievable.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Inference Bias & Speculative Scoring",
+      "affected_candidates": [
+        "C2",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Containerization, Orchestration & Distributed Systems",
+        "Data Infrastructure & Database Proficiency",
+        "High-Throughput, Low-Latency Systems Experience"
+      ],
+      "evidence": "Multiple rationales use institutional prestige or context as proxies for unstated skills. C2: 'Banking background suggests some distributed systems exposure' (score 5.0 on Containerization\u2014inference, not evidence). C2: 'Inferred competence from banking background' (score 5.0 on Data Infrastructure\u2014explicit inference). C6: 'FAANG background implies exposure to high-throughput systems' (score 7.0 on High-Throughput Systems\u2014inference). C5: 'Strong communication skills noted by referees' (mentioned in Backend Expertise rationale\u2014soft signal). By contrast, C1 and C4 receive high scores with explicit evidence (50k req/s, Kafka, Redis, ClickHouse). The scoring conflates institutional prestige with technical capability.",
+      "severity": "flagged"
+    }
+  ],
+  "audit_complete": true
+}

@@ -14,22 +14,23 @@ def generate_summaries(state: PipelineState) -> PipelineState:
     top_ids = [item["candidate_id"] for item in state["final_ranking"][:3]]
     top_candidates = [item for item in state["candidates"] if item["id"] in top_ids]
     final_score_source = read_json(CANDIDATE_SCORES).get("ranking_source", "")
-    prompt = SUMMARY_PROMPT.format(
-        job_description=json.dumps(state["job_description"], indent=2),
-        rubric=json.dumps(state["approved_rubric"], indent=2),
-        final_ranking=json.dumps(state["final_ranking"], indent=2),
-        final_score_source=final_score_source,
-        top_candidates=json.dumps(top_candidates, indent=2),
-        bias_audit=json.dumps(state["bias_audit"], indent=2),
-    )
+    prompt_kwargs = {
+        "job_description": json.dumps(state["job_description"], indent=2),
+        "rubric": json.dumps(state["approved_rubric"], indent=2),
+        "final_ranking": json.dumps(state["final_ranking"], indent=2),
+        "final_score_source": final_score_source,
+        "top_candidates": json.dumps(top_candidates, indent=2),
+        "bias_audit": json.dumps(state["bias_audit"], indent=2),
+    }
     agent = BaseAgent(SummaryReport)
-    report = agent.invoke(prompt)
+    report = agent.invoke(SUMMARY_PROMPT, **prompt_kwargs)
     markdown = _to_markdown(report)
     with open(HIRING_SUMMARIES, "w", encoding="utf-8") as handle:
         handle.write(markdown)
+    rendered = SUMMARY_PROMPT.format_messages(**prompt_kwargs)[-1].content
     append_llm_call(
         stage=PipelineStage.SUMMARIES_GENERATED.value,
-        prompt=prompt,
+        prompt=rendered,
         model=agent.model_name,
         input_artifacts=[state.get("job_description_path", "data/job_description.json"), state.get("candidates_path", "data/candidates.json"), CANDIDATE_SCORES, BIAS_AUDIT],
         output_artifact=HIRING_SUMMARIES,

@@ -20,21 +20,22 @@ def maybe_rescore(state: PipelineState) -> PipelineState:
         return {"corrected_scores": state["original_scores"], "stage": PipelineStage.BIAS_AUDITED.value}
     anonymized = [{"id": item["id"], "summary": item["summary"]} for item in state["candidates"]]
     rubric = {"criteria": [item for item in state["approved_rubric"]["criteria"] if item["name"] in flagged]}
-    prompt = RESCORING_PROMPT.format(
-        flagged_criteria=json.dumps(flagged, indent=2),
-        rubric=json.dumps(rubric, indent=2),
-        candidates=json.dumps(anonymized, indent=2),
-        original_scores=json.dumps(state["original_scores"], indent=2),
-    )
+    prompt_kwargs = {
+        "flagged_criteria": json.dumps(flagged, indent=2),
+        "rubric": json.dumps(rubric, indent=2),
+        "candidates": json.dumps(anonymized, indent=2),
+        "original_scores": json.dumps(state["original_scores"], indent=2),
+    }
     agent = BaseAgent(ScoringBatch)
-    rescored = agent.invoke(prompt).model_dump()
+    rescored = agent.invoke(RESCORING_PROMPT, **prompt_kwargs).model_dump()
     corrected = _merge_scores(state["original_scores"], rescored, set(flagged))
     corrected = recompute_scores(corrected, state["approved_rubric"])
     changed = corrected != state["original_scores"]
     update_candidate_scores(corrected_scores=corrected, flagged_criteria=flagged, scores_changed=changed)
+    rendered = RESCORING_PROMPT.format_messages(**prompt_kwargs)[-1].content
     append_llm_call(
         stage=PipelineStage.FLAGGED_RESCORING_COMPLETE.value,
-        prompt=prompt,
+        prompt=rendered,
         model=agent.model_name,
         input_artifacts=["bias_audit.json", CANDIDATE_SCORES, SCORING_RUBRIC],
         output_artifact=CANDIDATE_SCORES,

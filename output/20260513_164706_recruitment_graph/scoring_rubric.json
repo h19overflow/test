@@ -1,0 +1,40 @@
+{
+  "criteria": [
+    {
+      "name": "Backend Engineering Expertise & Language Proficiency",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "10: 7+ years of backend engineering with expert-level proficiency in Python or Go, demonstrating mastery through complex system design. 8-9: 5-6 years with strong proficiency in Python or Go, shipping production systems. 6-7: 4-5 years with solid proficiency in one language. 4-5: 3-4 years or intermediate proficiency. 2-3: <3 years or basic proficiency. 0-1: Minimal backend experience or language skills."
+    },
+    {
+      "name": "High-Throughput, Low-Latency Systems Experience",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "10: Proven track record designing and optimizing systems handling >50k req/s with sub-100ms latency; deep expertise in performance profiling and bottleneck elimination. 8-9: Built systems handling 10k-50k req/s with strong latency optimization skills. 6-7: Experience with systems handling 5k-10k req/s or solid understanding of latency optimization. 4-5: Limited exposure to high-throughput systems or basic optimization knowledge. 2-3: Minimal experience with performance-critical systems. 0-1: No relevant experience."
+    },
+    {
+      "name": "Financial Systems & Real-Time Data Expertise",
+      "weight": 0.2,
+      "scale": "0-10",
+      "ten_point_description": "10: Deep expertise in trading platforms, payment processing, or regulated financial systems; extensive WebSocket/real-time pipeline experience; understands financial domain complexities. 8-9: Solid experience with financial systems and real-time data pipelines (WebSocket, streaming). 6-7: Familiarity with financial systems OR strong WebSocket/real-time pipeline experience. 4-5: Basic exposure to financial domain or real-time systems. 2-3: Minimal financial or real-time systems experience. 0-1: No relevant experience."
+    },
+    {
+      "name": "Data Infrastructure & Database Proficiency",
+      "weight": 0.15,
+      "scale": "0-10",
+      "ten_point_description": "10: Expert-level proficiency with PostgreSQL and multiple NoSQL databases (Redis, MongoDB, DynamoDB, etc.); strong schema design and optimization skills. 8-9: Strong proficiency with PostgreSQL and at least one NoSQL database; solid optimization experience. 6-7: Solid proficiency with PostgreSQL and one NoSQL database. 4-5: Competent with PostgreSQL or one NoSQL database. 2-3: Basic experience with relational or NoSQL databases. 0-1: Minimal database experience."
+    },
+    {
+      "name": "Containerization, Orchestration & Distributed Systems",
+      "weight": 0.15,
+      "scale": "0-10",
+      "ten_point_description": "10: Expert in Docker and Kubernetes; extensive experience deploying and managing containerized systems at scale; strong understanding of distributed, async-first architectures. 8-9: Strong proficiency with Docker and Kubernetes; comfortable in distributed, async-first environments. 6-7: Solid Docker experience and basic Kubernetes knowledge; some distributed systems experience. 4-5: Competent with Docker; limited Kubernetes or distributed systems experience. 2-3: Basic containerization knowledge. 0-1: Minimal containerization experience."
+    },
+    {
+      "name": "Event-Driven Architecture & Fintech Domain Knowledge",
+      "weight": 0.1,
+      "scale": "0-10",
+      "ten_point_description": "10: Expert in event-driven architectures (Kafka, RabbitMQ, etc.); extensive fintech or trading firm experience; deep understanding of regulated financial environments. 8-9: Strong event-driven architecture experience; solid fintech background. 6-7: Good understanding of event-driven systems or fintech experience. 4-5: Basic event-driven architecture knowledge or limited fintech exposure. 2-3: Minimal event-driven or fintech experience. 0-1: No relevant experience."
+    }
+  ]
+}

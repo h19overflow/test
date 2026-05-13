@@ -1,0 +1,486 @@
+{
+  "approved_rubric_reference": "scoring_rubric.json",
+  "original_scores": {
+    "candidate_scores": [
+      {
+        "candidate_id": "C1",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 9.0,
+            "rationale": "7 years of backend engineering with expert-level proficiency in both Python and Go. Demonstrated mastery through building a real-time trade execution engine, indicating complex system design capability."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 10.0,
+            "rationale": "Proven track record building systems handling 50k req/s, exceeding the >10k req/s requirement. Experience with real-time trade execution engine demonstrates deep expertise in performance-critical systems."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 10.0,
+            "rationale": "Deep expertise in trading platforms through real-time trade execution engine at fintech startup. Kafka experience indicates strong real-time data pipeline knowledge. Understands financial domain complexities through fintech background."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 8.0,
+            "rationale": "Strong proficiency with PostgreSQL and Redis (NoSQL). Experience with Kafka adds additional data infrastructure expertise. Solid optimization experience implied by high-throughput system work."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 6.0,
+            "rationale": "No explicit Docker or Kubernetes experience mentioned. However, 7 years of backend engineering and team leadership suggest distributed systems familiarity. Score reflects gap in containerization specifics."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 9.0,
+            "rationale": "Extensive fintech experience at Lagos startup with deep understanding of trading domain. Kafka experience demonstrates strong event-driven architecture knowledge. Regulated financial environment exposure likely given fintech context."
+          }
+        ],
+        "total_weighted_score": 8.8
+      },
+      {
+        "candidate_id": "C2",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 7.0,
+            "rationale": "6 years at tier-1 financial institutions with Java as primary language and some Python. Solid proficiency demonstrated through equity derivatives work, though primary language (Java) is not Python or Go."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 8.0,
+            "rationale": "Strong low-latency focus at Goldman Sachs and Barclays on equity derivatives pricing systems. Experience at these institutions implies exposure to high-throughput systems, though specific throughput metrics not provided."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 8.0,
+            "rationale": "Solid experience with financial systems through equity derivatives pricing at major banks. However, no WebSocket or real-time data pipeline experience explicitly mentioned, limiting score."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 5.0,
+            "rationale": "No specific database experience mentioned in summary. Inferred competence from banking background, but lack of explicit PostgreSQL or NoSQL database mention limits confidence."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 5.0,
+            "rationale": "No Docker or Kubernetes experience mentioned. Banking background suggests some distributed systems exposure, but containerization specifics are absent."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 8.0,
+            "rationale": "Extensive fintech experience at Goldman Sachs and Barclays with deep understanding of regulated financial environments. However, no event-driven architecture (Kafka, RabbitMQ) experience explicitly noted."
+          }
+        ],
+        "total_weighted_score": 6.9
+      },
+      {
+        "candidate_id": "C3",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 7.0,
+            "rationale": "4 years experience with expert-level Python proficiency. Open source contributions demonstrate strong technical depth. However, falls short of 5+ years requirement and no Go experience mentioned."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 5.0,
+            "rationale": "WebSocket data pipeline experience suggests some real-time systems work, but no specific throughput metrics provided. Early-stage startup context suggests limited exposure to >10k req/s systems."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 8.0,
+            "rationale": "Strong WebSocket data pipeline experience for crypto exchange demonstrates real-time data expertise. Crypto trading domain provides financial systems familiarity. Open source trading library contributions add depth."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 7.0,
+            "rationale": "Solid proficiency with PostgreSQL and MongoDB (NoSQL). Experience with both relational and NoSQL databases meets requirements, though optimization depth not explicitly demonstrated."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 4.0,
+            "rationale": "No Docker or Kubernetes experience mentioned. Early-stage startup background suggests limited exposure to containerization and orchestration at scale."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 7.0,
+            "rationale": "Open source trading library contributions and crypto exchange experience demonstrate fintech domain knowledge. However, no explicit event-driven architecture (Kafka, RabbitMQ) experience mentioned."
+          }
+        ],
+        "total_weighted_score": 6.35
+      },
+      {
+        "candidate_id": "C4",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 9.0,
+            "rationale": "8 years backend engineering with expert-level proficiency in Go and Rust. High-frequency trading infrastructure work demonstrates mastery of complex system design."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 10.0,
+            "rationale": "High-frequency trading infrastructure expertise at prop trading firm indicates deep experience with extreme throughput and latency requirements, far exceeding >10k req/s baseline."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 9.0,
+            "rationale": "Extensive trading infrastructure experience at prop trading firm demonstrates deep financial systems expertise. Kafka and Redis experience indicates strong real-time data pipeline knowledge."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 9.0,
+            "rationale": "Expert-level proficiency with Redis and ClickHouse (specialized time-series database). Strong infrastructure optimization skills implied by HFT background. Multiple database technologies mastered."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 9.0,
+            "rationale": "Kubernetes expert with extensive experience deploying containerized systems. HFT infrastructure background implies deep understanding of distributed, async-first architectures."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 8.0,
+            "rationale": "Strong event-driven architecture experience through Kafka and Redis. Extensive trading firm background provides fintech domain expertise. No regulated financial environment experience explicitly noted."
+          }
+        ],
+        "total_weighted_score": 9.1
+      },
+      {
+        "candidate_id": "C5",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 7.0,
+            "rationale": "5 years backend engineering with Python proficiency. Payments infrastructure work demonstrates solid production system experience. TypeScript secondary language is not Go, limiting score slightly."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 6.0,
+            "rationale": "Payments infrastructure at Razorpay handling 100k transactions/day suggests high-throughput experience, though specific req/s metrics and latency optimization details not provided."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 8.0,
+            "rationale": "Solid financial systems experience through payments infrastructure at Razorpay. Payment processing is core financial domain. However, no explicit WebSocket or real-time pipeline experience mentioned."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 6.0,
+            "rationale": "PostgreSQL proficiency confirmed. No NoSQL database experience mentioned, which is a gap against the requirement for 'at least one NoSQL database'."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 6.0,
+            "rationale": "Docker experience confirmed. No Kubernetes experience mentioned. Payments infrastructure background suggests distributed systems familiarity, but orchestration depth unclear."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 7.0,
+            "rationale": "Payments infrastructure at Razorpay provides fintech domain expertise. No explicit event-driven architecture (Kafka, RabbitMQ) experience mentioned, but payments systems often use such patterns."
+          }
+        ],
+        "total_weighted_score": 6.7
+      },
+      {
+        "candidate_id": "C6",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 7.0,
+            "rationale": "10 years backend engineering with Java as primary language and Go learning in progress. Strong system design from FAANG background, but Java is not the preferred Python or Go, and Go proficiency is nascent."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 7.0,
+            "rationale": "Senior engineer at Google and Meta implies exposure to high-throughput systems. Strong system design skills suggest latency optimization capability, though no specific financial domain throughput metrics provided."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 2.0,
+            "rationale": "No financial domain experience mentioned. This is a significant gap for a trading infrastructure role. No WebSocket or real-time pipeline experience noted."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 6.0,
+            "rationale": "Cassandra experience demonstrates NoSQL proficiency. However, no PostgreSQL experience mentioned, which is a specific requirement. Partial alignment with database requirements."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 8.0,
+            "rationale": "Kubernetes expertise from FAANG background. Strong system design and distributed systems experience from Google and Meta. Comfortable in distributed, async-first environments."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 2.0,
+            "rationale": "No financial domain or fintech experience mentioned. No event-driven architecture (Kafka, RabbitMQ) experience noted. Significant gap in this domain-specific criterion."
+          }
+        ],
+        "total_weighted_score": 5.5
+      }
+    ]
+  },
+  "bias_audit_status": "completed",
+  "flagged_criteria": [
+    "Backend Engineering Expertise & Language Proficiency",
+    "Containerization, Orchestration & Distributed Systems",
+    "Data Infrastructure & Database Proficiency",
+    "Event-Driven Architecture & Fintech Domain Knowledge",
+    "Financial Systems & Real-Time Data Expertise",
+    "High-Throughput, Low-Latency Systems Experience"
+  ],
+  "corrected_scores": {
+    "candidate_scores": [
+      {
+        "candidate_id": "C1",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 9.0,
+            "rationale": "7 years of backend engineering with expert-level proficiency in both Python and Go. Demonstrated mastery through building a real-time trade execution engine, indicating complex system design capability. Meets the 7+ years threshold with both required languages."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 10.0,
+            "rationale": "Proven track record building systems handling 50k req/s, exceeding the >50k req/s requirement. Experience with real-time trade execution engine demonstrates deep expertise in performance-critical systems and bottleneck elimination."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 10.0,
+            "rationale": "Deep expertise in trading platforms through real-time trade execution engine at fintech startup. Kafka experience indicates strong real-time data pipeline knowledge. Demonstrates understanding of financial domain complexities through fintech background."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 8.0,
+            "rationale": "Strong proficiency with PostgreSQL and Redis (NoSQL). Kafka experience adds additional data infrastructure expertise. Solid optimization experience implied by high-throughput system work handling 50k req/s."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 6.0,
+            "rationale": "No explicit Docker or Kubernetes experience mentioned. However, 7 years of backend engineering and team leadership suggest distributed systems familiarity. Score reflects gap in containerization specifics."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 9.0,
+            "rationale": "Extensive fintech experience at Lagos startup with deep understanding of trading domain. Kafka experience demonstrates strong event-driven architecture knowledge. Fintech context indicates exposure to regulated financial environment complexities."
+          }
+        ],
+        "total_weighted_score": 8.8
+      },
+      {
+        "candidate_id": "C2",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 6.0,
+            "rationale": "6 years at tier-1 financial institutions with Java as primary language and some Python. While demonstrating solid proficiency through equity derivatives work, primary language is Java rather than Python or Go, placing this at the lower end of the 6-7 range."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 7.0,
+            "rationale": "Strong low-latency focus at Goldman Sachs and Barclays on equity derivatives pricing systems. Tier-1 financial institution background implies exposure to high-throughput systems, though specific throughput metrics (5k-10k req/s range) are not provided."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 7.0,
+            "rationale": "Solid experience with financial systems through equity derivatives pricing at major banks. However, no WebSocket or real-time data pipeline experience explicitly mentioned. Demonstrates financial domain knowledge but lacks real-time pipeline expertise."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 4.0,
+            "rationale": "No specific database experience mentioned in summary. Cannot infer PostgreSQL or NoSQL proficiency from banking background alone. Lacks explicit evidence of database infrastructure expertise required for this role."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 4.0,
+            "rationale": "No Docker or Kubernetes experience mentioned. Banking background suggests some distributed systems exposure, but containerization specifics are absent. Limited evidence of modern infrastructure expertise."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 8.0,
+            "rationale": "Extensive fintech experience at Goldman Sachs and Barclays with deep understanding of regulated financial environments. However, no event-driven architecture (Kafka, RabbitMQ) experience explicitly noted."
+          }
+        ],
+        "total_weighted_score": 6.0
+      },
+      {
+        "candidate_id": "C3",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 6.0,
+            "rationale": "4 years experience with expert-level Python proficiency. Open source contributions demonstrate strong technical depth. However, falls short of 5+ years requirement and no Go experience mentioned, placing in 4-5 year range with solid proficiency."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 4.0,
+            "rationale": "WebSocket data pipeline experience suggests some real-time systems work, but no specific throughput metrics provided. Early-stage startup context suggests limited exposure to systems handling >5k req/s. Basic optimization knowledge implied."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 8.0,
+            "rationale": "Strong WebSocket data pipeline experience for crypto exchange demonstrates real-time data expertise. Crypto trading domain provides financial systems familiarity. Open source trading library contributions add domain depth."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 7.0,
+            "rationale": "Solid proficiency with PostgreSQL and MongoDB (NoSQL). Experience with both relational and NoSQL databases meets requirements, though optimization depth not explicitly demonstrated."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 3.0,
+            "rationale": "No Docker or Kubernetes experience mentioned. Early-stage startup background suggests minimal exposure to containerization and orchestration. Basic knowledge at best."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 6.0,
+            "rationale": "Open source trading library contributions and crypto exchange experience demonstrate fintech domain knowledge. However, no explicit event-driven architecture (Kafka, RabbitMQ) experience mentioned. Basic knowledge inferred."
+          }
+        ],
+        "total_weighted_score": 5.7
+      },
+      {
+        "candidate_id": "C4",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 9.0,
+            "rationale": "8 years backend engineering with expert-level proficiency in Go and Rust. High-frequency trading infrastructure work demonstrates mastery of complex system design. Exceeds 7+ years threshold with expert-level language proficiency."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 10.0,
+            "rationale": "High-frequency trading infrastructure expertise at prop trading firm indicates deep experience with extreme throughput and latency requirements, far exceeding >50k req/s baseline. Deep expertise in performance profiling and bottleneck elimination."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 9.0,
+            "rationale": "Extensive trading infrastructure experience at prop trading firm demonstrates deep financial systems expertise. Kafka and Redis experience indicates strong real-time data pipeline knowledge. Understands trading domain complexities."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 9.0,
+            "rationale": "Expert-level proficiency with Redis and ClickHouse (specialized time-series database). Strong infrastructure optimization skills implied by HFT background. Multiple database technologies mastered."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 9.0,
+            "rationale": "Kubernetes expert with extensive experience deploying containerized systems at scale. HFT infrastructure background implies deep understanding of distributed, async-first architectures."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 7.0,
+            "rationale": "Strong event-driven architecture experience through Kafka and Redis. Extensive trading firm background provides fintech domain expertise. However, no regulated financial environment experience explicitly noted, limiting to 7."
+          }
+        ],
+        "total_weighted_score": 9.0
+      },
+      {
+        "candidate_id": "C5",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 7.0,
+            "rationale": "5 years backend engineering with Python proficiency. Payments infrastructure work demonstrates solid production system experience. TypeScript secondary language is not Go, limiting score slightly. Meets 5-6 years with strong proficiency threshold."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 5.0,
+            "rationale": "Payments infrastructure at Razorpay handling 100k transactions/day suggests high-throughput experience, but specific req/s metrics and latency optimization details not provided. Limited exposure to systems handling >5k req/s."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 8.0,
+            "rationale": "Solid financial systems experience through payments infrastructure at Razorpay. Payment processing is core financial domain. However, no explicit WebSocket or real-time pipeline experience mentioned."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 5.0,
+            "rationale": "PostgreSQL proficiency confirmed. No NoSQL database experience mentioned, which is a gap against the requirement for 'at least one NoSQL database'. Competent with one database type only."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 5.0,
+            "rationale": "Docker experience confirmed. No Kubernetes experience mentioned. Payments infrastructure background suggests distributed systems familiarity, but orchestration depth unclear. Limited containerization experience."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 6.0,
+            "rationale": "Payments infrastructure at Razorpay provides fintech domain expertise. No explicit event-driven architecture (Kafka, RabbitMQ) experience mentioned. Basic knowledge inferred from payments domain."
+          }
+        ],
+        "total_weighted_score": 6.1
+      },
+      {
+        "candidate_id": "C6",
+        "scores": [
+          {
+            "criterion_name": "Backend Engineering Expertise & Language Proficiency",
+            "score": 6.0,
+            "rationale": "10 years backend engineering with Java as primary language and Go learning in progress. Strong system design from FAANG background, but Java is not the preferred Python or Go. Go proficiency is nascent, not expert-level."
+          },
+          {
+            "criterion_name": "High-Throughput, Low-Latency Systems Experience",
+            "score": 6.0,
+            "rationale": "Senior engineer at Google and Meta implies exposure to high-throughput systems. Strong system design skills suggest latency optimization capability, but no specific financial domain throughput metrics provided. Solid understanding inferred."
+          },
+          {
+            "criterion_name": "Financial Systems & Real-Time Data Expertise",
+            "score": 1.0,
+            "rationale": "No financial domain experience mentioned. This is a critical gap for a trading infrastructure role. No WebSocket or real-time pipeline experience noted. Minimal relevant experience."
+          },
+          {
+            "criterion_name": "Data Infrastructure & Database Proficiency",
+            "score": 5.0,
+            "rationale": "Cassandra experience demonstrates NoSQL proficiency. However, no PostgreSQL experience mentioned, which is a specific requirement. Partial alignment with database requirements."
+          },
+          {
+            "criterion_name": "Containerization, Orchestration & Distributed Systems",
+            "score": 8.0,
+            "rationale": "Kubernetes expertise from FAANG background. Strong system design and distributed systems experience from Google and Meta. Comfortable in distributed, async-first environments."
+          },
+          {
+            "criterion_name": "Event-Driven Architecture & Fintech Domain Knowledge",
+            "score": 1.0,
+            "rationale": "No financial domain or fintech experience mentioned. No event-driven architecture (Kafka, RabbitMQ) experience noted. Minimal relevant experience in this domain-specific criterion."
+          }
+        ],
+        "total_weighted_score": 4.65
+      }
+    ]
+  },
+  "scores_changed": true,
+  "ranking_source": "corrected_scores",
+  "final_ranking": [
+    {
+      "candidate_id": "C4",
+      "total_weighted_score": 9.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "C1",
+      "total_weighted_score": 8.8,
+      "rank": 2
+    },
+    {
+      "candidate_id": "C5",
+      "total_weighted_score": 6.1,
+      "rank": 3
+    },
+    {
+      "candidate_id": "C2",
+      "total_weighted_score": 6.0,
+      "rank": 4
+    },
+    {
+      "candidate_id": "C3",
+      "total_weighted_score": 5.7,
+      "rank": 5
+    },
+    {
+      "candidate_id": "C6",
+      "total_weighted_score": 4.65,
+      "rank": 6
+    }
+  ]
+}

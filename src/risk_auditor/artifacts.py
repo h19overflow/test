@@ -7,11 +7,16 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path.cwd()
-SCORING_RUBRIC = "scoring_rubric.json"
-CANDIDATE_SCORES = "candidate_scores.json"
-BIAS_AUDIT = "bias_audit.json"
-HIRING_SUMMARIES = "hiring_summaries.md"
-LLM_CALLS = "llm_calls.jsonl"
+OUTPUT_DIR = ROOT / "output"
+SCORING_RUBRIC = "output/scoring_rubric.json"
+CANDIDATE_SCORES = "output/candidate_scores.json"
+BIAS_AUDIT = "output/bias_audit.json"
+HIRING_SUMMARIES = "output/hiring_summaries.md"
+LLM_CALLS = "output/llm_calls.jsonl"
+
+
+def _ensure_output_dir() -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def read_json(path: str) -> Any:
@@ -19,6 +24,7 @@ def read_json(path: str) -> Any:
 
 
 def write_json(path: str, data: Any) -> None:
+    _ensure_output_dir()
     (ROOT / path).write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 
@@ -41,6 +47,7 @@ def append_llm_call(
         "output_artifact": output_artifact,
         "candidate_names_included": candidate_names_included,
     }
+    _ensure_output_dir()
     with (ROOT / LLM_CALLS).open("a", encoding="utf-8") as handle:
         handle.write(json.dumps(record) + "\n")
 

@@ -1,0 +1,99 @@
+{
+  "findings": [
+    {
+      "bias_type": "Credential Prestige Bias",
+      "affected_candidates": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Backend Engineering Expertise & Language Proficiency"
+      ],
+      "evidence": "C2 (Oxford CS degree) and C6 (Google/Meta FAANG background) receive favorable treatment despite weaker domain fit. C2 scored 7.0 on Backend Expertise despite only 6 years experience and Java as primary language (vs. C1's 9.0 with 7 years and Python/Go mastery). C6 scored 7.0 on Backend Expertise with 'learning Go' status, matching C2 and C5 despite incomplete language proficiency. Conversely, C1 (no degree listed) scored 9.0 despite equivalent or superior technical depth. The rubric explicitly requires 'expert-level proficiency in Python or Go'\u2014C6 fails this (learning Go) yet receives same score as C5 (strong Python). Prestige institutions appear to buffer scoring.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Geographic/Employer Prestige Bias",
+      "affected_candidates": [
+        "C1",
+        "C5",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Distributed Systems & Async-First Collaboration"
+      ],
+      "evidence": "C1 (Lagos fintech startup) scored 7.0 on Distributed Systems despite leading a team of 4 and working in distributed context. C5 (Razorpay, India-based fintech) scored 8.0 on same criterion with only 'strong communication skills noted by referees'\u2014no explicit team leadership or async-first evidence provided. C6 (Google/Meta) scored 7.0 with 'limited explicit evidence of async-first remote collaboration.' Tier-1 institution employees (C2, C6) receive benefit-of-doubt scoring on distributed systems despite weaker evidence than startup founders/leads. C1's team leadership is underweighted relative to C5's communication notes.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Startup Context Penalty",
+      "affected_candidates": [
+        "C3"
+      ],
+      "affected_criteria": [
+        "High-Performance Systems Experience",
+        "Distributed Systems & Async-First Collaboration"
+      ],
+      "evidence": "C3 (early-stage startup) scored 5.0 on High-Performance Systems Experience with rationale: 'Early-stage startup context suggests moderate rather than extensive high-performance systems experience.' This penalizes startup context despite WebSocket pipeline for crypto exchange. C1 (Lagos fintech startup) scored 8.0 on Real-Time Data & Infrastructure despite no explicit WebSocket mention, with rationale assuming 'trade execution engine likely involves real-time infrastructure.' Identical inference logic applied inconsistently: C1's startup work inferred favorably; C3's startup work inferred as limiting. C3 also scored 5.0 on Distributed Systems with 'early-stage startup context suggests moderate rather than extensive' experience, while C4 (prop trading firm) scored 6.0 with similar evidence.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Name/Nationality Signal Bias",
+      "affected_candidates": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Backend Engineering Expertise & Language Proficiency",
+        "Financial Systems & Domain Knowledge"
+      ],
+      "evidence": "Candidates with non-Western names (C1: Aisha Okonkwo\u2014Nigerian; C3: Mei-Lin Zhang\u2014Chinese; C4: Dmitri Volkov\u2014Russian; C5: Priya Nair\u2014Indian) show inconsistent scoring patterns. C1 and C4 (both non-Western names) score highest (8.67, 8.57), but C3 (non-Western name) scores lowest (6.03) despite strong technical credentials (Python expert, open source contributions, WebSocket expertise). C5 (non-Western name) scores 6.95 despite 5 years experience and strong domain fit. C2 (James Whitfield\u2014Western name) scores 7.28 with 6 years experience and Java primary (not Python/Go). C6 (Tom Henderson\u2014Western name) scores 5.93 but receives high individual criterion scores (7.0 on Backend despite 'learning Go'). The pattern suggests name-based scoring variance rather than consistent technical evaluation.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Degree Prestige Bias",
+      "affected_candidates": [
+        "C1",
+        "C2",
+        "C5"
+      ],
+      "affected_criteria": [
+        "Distributed Systems & Async-First Collaboration"
+      ],
+      "evidence": "C2 (Oxford CS degree) and C5 (MBA + CS degree) receive explicit credential mentions in rationales. C1 (no degree listed) receives no penalty despite superior technical depth. Rubric makes no mention of degree requirements, yet scorers reference credentials. C2's Oxford degree does not appear in scoring rationale but may influence perception. C5's MBA is noted as indicating 'strong collaboration and communication capabilities'\u2014a soft inference not grounded in rubric criteria. C1's lack of degree is conspicuously absent from rationale despite being notable gap vs. peers.",
+      "severity": "watch"
+    },
+    {
+      "bias_type": "Catastrophic Domain Knowledge Penalty",
+      "affected_candidates": [
+        "C6"
+      ],
+      "affected_criteria": [
+        "Financial Systems & Domain Knowledge"
+      ],
+      "evidence": "C6 scored 1.0 on Financial Systems & Domain Knowledge with rationale: 'No financial domain experience noted. This is a significant gap for a trading infrastructure role.' This is a disproportionate penalty (1/10 = 10% of max) for a single missing domain. Rubric scale 0-1 is 'Minimal or no experience'\u2014C6 receives this despite 10 years backend engineering and strong system design. No other candidate receives such an extreme score. This single criterion (17.8% weight) heavily suppresses C6's total score (5.93). While domain knowledge is important, the 1.0 score appears punitive rather than calibrated. C2 scored 9.0 on same criterion with 'deep expertise in regulated financial systems'\u2014a 8-point gap for domain experience. This creates a binary penalty structure that may unfairly disadvantage candidates from non-financial backgrounds.",
+      "severity": "flagged"
+    },
+    {
+      "bias_type": "Inference Asymmetry & Benefit-of-Doubt Bias",
+      "affected_candidates": [
+        "C1",
+        "C2",
+        "C3",
+        "C6"
+      ],
+      "affected_criteria": [
+        "Real-Time Data & Infrastructure Technologies",
+        "High-Performance Systems Experience"
+      ],
+      "evidence": "Scorers apply inconsistent inference logic across candidates. C1: 'trade execution engine likely involves real-time infrastructure' (favorable inference, no WebSocket mentioned). C2: 'Likely handles high-throughput requirements, though specific req/s metrics not provided' (favorable inference despite missing data). C3: 'Early-stage startup context suggests moderate rather than extensive' (unfavorable inference). C4: No WebSocket mentioned but scored 9.0 on Real-Time Data (no inference needed\u2014explicit tech stack). C6: 'Limited explicit evidence' used to justify 7.0 scores despite 10 years experience. Tier-1 institution employees (C2, C6) receive benefit-of-doubt inferences; startup/emerging market employees (C1, C3) receive mixed treatment. C1 benefits from favorable inference; C3 penalized by unfavorable inference despite similar evidence quality.",
+      "severity": "flagged"
+    }
+  ],
+  "audit_complete": true
+}

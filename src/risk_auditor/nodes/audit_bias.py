@@ -16,19 +16,20 @@ def audit_bias(state: PipelineState) -> PipelineState:
         raise RuntimeError("candidate_scores.json is required before bias audit")
     if state.get("final_ranking"):
         raise RuntimeError("Bias audit must complete before ranking")
-    prompt = BIAS_AUDIT_PROMPT.format(
-        candidates=json.dumps(state["candidates"], indent=2),
-        rubric=json.dumps(state["approved_rubric"], indent=2),
-        original_scores=json.dumps(state["original_scores"], indent=2),
-    )
+    prompt_kwargs = {
+        "candidates": json.dumps(state["candidates"], indent=2),
+        "rubric": json.dumps(state["approved_rubric"], indent=2),
+        "original_scores": json.dumps(state["original_scores"], indent=2),
+    }
     agent = BaseAgent(BiasAudit)
-    audit = agent.invoke(prompt).model_dump()
+    audit = agent.invoke(BIAS_AUDIT_PROMPT, **prompt_kwargs).model_dump()
     flagged = sorted({criterion for finding in audit["findings"] if finding["severity"] == "flagged" for criterion in finding["affected_criteria"]})
     write_json(BIAS_AUDIT, audit)
     update_candidate_scores(bias_audit_status="completed", flagged_criteria=flagged)
+    rendered = BIAS_AUDIT_PROMPT.format_messages(**prompt_kwargs)[-1].content
     append_llm_call(
         stage=PipelineStage.BIAS_AUDITED.value,
-        prompt=prompt,
+        prompt=rendered,
         model=agent.model_name,
         input_artifacts=[state.get("candidates_path", "data/candidates.json"), SCORING_RUBRIC, CANDIDATE_SCORES],
         output_artifact=BIAS_AUDIT,
