@@ -1,0 +1,40 @@
+{
+  "criteria": [
+    {
+      "name": "Backend Engineering Expertise & Language Proficiency",
+      "weight": 0.19802,
+      "scale": "0-10",
+      "ten_point_description": "10: 7+ years of backend engineering with expert-level proficiency in Python or Go, demonstrating mastery through complex system design. 8-9: 5-6 years with strong proficiency in Python or Go, comfortable leading technical decisions. 6-7: 5+ years with solid proficiency in one language, can handle most backend challenges. 4-5: 4-5 years or intermediate proficiency in Python/Go, some gaps in advanced concepts. 2-3: Less than 4 years or basic proficiency, struggles with complex backend problems. 0-1: Minimal backend experience or weak language skills."
+    },
+    {
+      "name": "High-Performance Systems Experience",
+      "weight": 0.19802,
+      "scale": "0-10",
+      "ten_point_description": "10: Extensive production experience building systems handling >50k req/s with proven optimization expertise and deep understanding of latency reduction. 8-9: Strong experience with systems handling >10k req/s, demonstrates clear understanding of performance bottlenecks and optimization strategies. 6-7: Solid experience with high-throughput systems (>10k req/s), can identify and address performance issues. 4-5: Some experience with moderately high-throughput systems (5-10k req/s) or theoretical knowledge of performance optimization. 2-3: Limited high-performance system experience, basic understanding of throughput concepts. 0-1: No relevant experience with high-throughput systems."
+    },
+    {
+      "name": "Financial Systems & Domain Knowledge",
+      "weight": 0.178218,
+      "scale": "0-10",
+      "ten_point_description": "10: Deep expertise in trading platforms, payment processing, or regulated financial systems with multiple years of hands-on experience. 8-9: Strong familiarity with financial systems, trading infrastructure, or payment processing; understands domain-specific challenges. 6-7: Solid understanding of financial systems or trading platforms; can navigate domain-specific requirements. 4-5: Basic familiarity with financial systems or payment processing; some gaps in domain knowledge. 2-3: Limited exposure to financial systems; requires significant onboarding. 0-1: No financial systems experience or understanding."
+    },
+    {
+      "name": "Real-Time Data & Infrastructure Technologies",
+      "weight": 0.178218,
+      "scale": "0-10",
+      "ten_point_description": "10: Expert-level proficiency with WebSocket, real-time data pipelines, event-driven architectures (Kafka/RabbitMQ), containerization (Docker/Kubernetes), and PostgreSQL/NoSQL databases. 8-9: Strong proficiency with WebSocket and real-time pipelines; solid experience with Kafka/RabbitMQ and container orchestration. 6-7: Solid experience with WebSocket or real-time data pipelines; comfortable with Docker/Kubernetes and database technologies. 4-5: Moderate experience with some real-time technologies; basic proficiency with containerization and databases. 2-3: Limited experience with real-time systems or infrastructure tools; significant gaps remain. 0-1: Minimal or no experience with required infrastructure technologies."
+    },
+    {
+      "name": "Database Proficiency & Data Architecture",
+      "weight": 0.148515,
+      "scale": "0-10",
+      "ten_point_description": "10: Expert-level proficiency with PostgreSQL and multiple NoSQL databases; demonstrates advanced optimization, scaling, and architectural decisions. 8-9: Strong proficiency with PostgreSQL and at least one NoSQL database; can design efficient data architectures. 6-7: Solid proficiency with PostgreSQL and one NoSQL database; understands trade-offs and can implement effective schemas. 4-5: Moderate experience with PostgreSQL or NoSQL; some gaps in optimization or scaling knowledge. 2-3: Basic experience with one database type; limited understanding of multi-database architectures. 0-1: Minimal database experience or weak proficiency."
+    },
+    {
+      "name": "Distributed Systems & Async-First Collaboration",
+      "weight": 0.099009,
+      "scale": "0-10",
+      "ten_point_description": "10: Extensive experience thriving in distributed, async-first teams; demonstrates excellent communication, documentation, and self-direction across timezones. 8-9: Strong track record working effectively in distributed teams; comfortable with async communication and independent problem-solving. 6-7: Solid experience in distributed environments; can work async-first with occasional guidance. 4-5: Some experience with remote or distributed work; developing async-first skills. 2-3: Limited distributed team experience; may struggle with async-first workflows. 0-1: No distributed team experience or poor async collaboration skills."
+    }
+  ]
+}
